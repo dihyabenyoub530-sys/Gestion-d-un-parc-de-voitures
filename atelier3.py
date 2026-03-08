@@ -43,3 +43,5 @@ class Parc:
 
     def NbrPlacesLibres(self):
         return self.capacite
+
+p1=Parc(1,"Toronto", 3)
