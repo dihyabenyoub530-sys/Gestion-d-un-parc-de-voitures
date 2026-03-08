@@ -59,3 +59,7 @@ p1.entrervoiture(v3)
 v3.afficherinformations()
 
 p1.entrervoiture(v4)
+p1.sortirvoiture(v1)
+p1.sortirvoiture(v2)
+p1.sortirvoiture(v4)
+p1.NbrPlacesLibres()
