@@ -18,3 +18,14 @@ class Parc:
         self.adresse = adresse
         self.capacite = capacite
         self.listeVoitures = []
+
+    def entrervoiture(self, voiture):
+        if voiture in self.listevoitures:
+            print(" La voiture est déja dans le parc ")
+
+        elif self.capacite <= 0:
+            print(" La capacite maximale du parc est atteinte ")
+        else:
+            self.listevoitures.append(voiture)
+            self.capacite = self.capacite - 1
+            print(" Voiture bien ajouté au parc ")
