@@ -45,3 +45,7 @@ class Parc:
         return self.capacite
 
 p1=Parc(1,"Toronto", 3)
+v1=Voiture("AO10", "Mercedes", "Noir")
+v2=Voiture("AO11", "JEEP","Noir")
+v3=Voiture("AO12","TOYOTA","Noir")
+v4=Voiture("AO13","AUDI","Bleu")
