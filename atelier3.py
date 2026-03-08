@@ -49,3 +49,13 @@ v1=Voiture("AO10", "Mercedes", "Noir")
 v2=Voiture("AO11", "JEEP","Noir")
 v3=Voiture("AO12","TOYOTA","Noir")
 v4=Voiture("AO13","AUDI","Bleu")
+p1.entrervoiture(v1)
+v1.afficherinformations()
+
+p1.entrervoiture(v2)
+v2.afficherinformations()
+
+p1.entrervoiture(v3)
+v3.afficherinformations()
+
+p1.entrervoiture(v4)
